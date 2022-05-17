@@ -35,6 +35,8 @@ public class Example01_CreateAPatient {
       // ---------------------------------
 
       // -----Method 2 | adding identifiers------
+      // checkout https://www.hl7.org/fhir/patient.html for more
+
       pat.addIdentifier().setValue("AA2Test").setSystem("AA2Test");
       pat.addIdentifier().setValue("MOHTest").setSystem("MOHTest");
       pat.addName().addGiven("first given name").addGiven("second given name").setFamily("your surname");
